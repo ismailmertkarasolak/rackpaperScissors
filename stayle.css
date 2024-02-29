@@ -36,11 +36,25 @@ button:active {
     background-color: #0000007e;
 }
 @media only screen and (max-width: 400px){
-    body {
-        font-family: 'Arial', sans-serif;
-        font-size: 1.5em;
+     body {
+        font-size: 1em;
         text-align: center;
         margin-top: 5em;
-        background: linear-gradient(to right, rgb(39, 133, 128),green);
-    
     }
+
+    button {
+        padding: 30px 50px;
+        font-size: 1.4em;
+        margin: 5px;
+    }
+
+    h2 {
+        margin-bottom: 2px;
+        text-align: 75px;
+    }
+
+    #opponent-choice, #user-choice, #decision {
+        font-weight: bold;
+        color: #ffffff;
+    }
+}
