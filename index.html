@@ -3,49 +3,13 @@
     <head>
         <meta charset="utf-8">
         <title>R-P-S</title>
-        <style>
-            body {
-                font-family: 'Arial', sans-serif;
-                text-align: center;
-                margin: 50px;
-                background-color: rgb(53, 53, 53);
-            }
-
-            h2 {
-                margin-bottom: 10px;
-                text-align: 75px;
-            }
-
-            #opponent-choice, #user-choice, #decision {
-                font-weight: bold;
-                color: #006fb9;
-            }
-
-            button {
-                background-color: #000000d2;
-                color: #fff;
-                padding: 25px 40px;
-                font-size: 20px;
-                margin: 5px;
-                cursor: pointer;
-                border: none;
-                border-radius: 10px;
-                transition: 0.3s;
-            }
-
-            button:hover {
-                background-color: rgba(0, 0, 0, 0.63);
-                padding: 27px 42px;
-            }
-            button:active {
-                background-color: #0000007e;
-            }
-        </style>
+        <link rel="stylesheet" href="stayle.css">
+        
     </head>
     <body>
         <h2>Opponent's Choice: <span id="opponent-choice"></span></h2>
         <h2>Your Choice: <span id="user-choice"></span></h2>
-        <h2>Decision: <span id="decision"></span></h2>
+        <h2>Decision: <span id="decision"></span></h2><br><br>
 
         <button id="Rock">Rock</button>
         <button id="Paper">Paper</button>
